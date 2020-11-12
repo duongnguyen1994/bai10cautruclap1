@@ -7,13 +7,13 @@
 </head>
 <body>
     <script>
-        let num = parseFloat(prompt('Nhập số vào'))
-        let total = 0;
-        while (num != -1) {
-            num = parseFloat(prompt('Nhập số vào'));
-            alert('Số vừa nhập là: ' + num)
-            total += num
-            alert('Tổng cộng là: ' + total)
+        let a = Number(prompt('Nhập vào 1 số'));
+        let sum = 0;
+        while (a != -1){
+            alert('giá trị vừa nhập là: ' + a);
+            sum = Number(sum + a);
+            alert('Tổng là: ' + sum)
+            a = Number(prompt('Nhập vào 1 số'));
         }
     </script>
 </body>
